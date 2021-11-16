@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(51, 48, 48) !important;
+}
+
+
+
+#heading{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(190, 190, 190);
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 600 !important;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+}
+
+hr{
+    border:2px solid rgb(139, 139, 139) !important;
+}
+
+/* .selectbox{
+    background: rgb(255, 255, 255);
+} */
+
+
+#main{
+  width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+#left{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    #left >h1{
+        font-family: 'Playfair Display', serif;
+    font-size: 13em;
+       font-weight: 800;
+       color: white;
+    }
+
+    
+
+#right{
+  width: 100%;
+   height: 500px;
+   overflow-y: auto;
+   padding: 1.6%;
+    background: rgb(230, 228, 228);
+}
+
+#right > h3{
+    font-size: 16px;
+    text-align: center;
+}
+
+#texth4{
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+     font-weight: 600;}
+
+
+.box{
+  width: 98%;
+padding-top:20px;
+ min-height: 40px;
+border-bottom: 1px solid grey;
+display: flex;
+
+position: relative;
+}
+
+.box > div{
+    
+    margin-left: 10px;
+}
+
+
+
+.box > img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.animate {
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #cadaeb 74%); background-size: 400% 400%;
+    animation: gradient 9s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+#pushform{
+  
+    background: #000;
+    margin: 20px;
+    margin-top: 4%;
+}
+
+#btn{
+    background: rgb(192, 190, 190);
+    border: none;
+   margin-top: 25%;
+    padding: 10px 80px;
+    width: 100% !important;
+}
+
+#pushform >input {
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+border: none;
+}
+#pushform >button {
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+#error{
+    color: 
+    rgb(248, 98, 98);
+    font-weight: 600;
+    font-size: large;
+}
+    
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@media only  screen and (max-width:600px){
+    
+#main{
+    width: 100%;
+      height: 100%;
+      display: block;
+  
+  }
+
+  #heading{
+      font-size: 13px;
+  }
+
+  #left{
+   
+    width: 100% !important;
+    height: 100% !important;
+ 
+   align-items: center;
+  
+    
+    }
+
+  #name{
+      text-align: center;
+      font-size: 6em !important;
+  }
+  #right{
+      width: 100% !important;
+      padding: 10%;
+  }
+  .box{
+      padding-right: 20%  !important;
+      padding-left: 20%!important;
+  }
+  
+  #left{
+      height: 60vh !important;
+      width:100%;
+      justify-content: space-around !important;
+  }
+
+ 
+  
+}

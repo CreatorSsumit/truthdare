@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#333030">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#333030">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#333030">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Truth and Dare</title>
+   
+</head>
+<body>
+    <center>
+        <h4 id="heading">let's play truth not <strike style="color: rgb(243, 124, 124);"> Dare</strike> </h4>
+       <br>
+        <hr width="200px">
+    </center>
+
+
+    <div id="main">
+
+    <div id="left">
+        <h1 id="name">Play !</h1>
+     <form class="form" id="submit">
+        <button id="btn"  type="submit" class="font-weight-bold w-100"  type="button"><div id="reload" role="status">
+           Reload
+        </div></button>
+
+  
+     </form>
+
+
+     <form id="pushform">
+
+
+        <input required type="text" id="pushname" name="newuser" placeholder="Enter Candidate Name" />
+        
+        <button id="pushbtn" type="submit">Push</button>
+     </form>
+     <small id="error"></small>
+        
+
+    </div>
+    <div id="right">
+ <h3>All Members</h3>
+<center> <small id="noofjoin" style="text-align: center;font-weight: 500;color: rgb(90, 90, 90);">5 person joined</small></center>
+  
+ <div id="insidebox" style="padding-top: 20px;width: 100%;height: 100%;">
+     
+ </div>
+</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.0/split.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
