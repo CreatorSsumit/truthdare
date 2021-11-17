@@ -108,7 +108,7 @@ document.querySelector("#pushform").addEventListener("submit",(e)=>{
 
         document.querySelector("#error").textContent = ""
     }
-    if(list.length > 0){
+    if(list.length > 1){
         document.querySelector("#btn").disabled = false; 
 
     }
