@@ -98,7 +98,7 @@ document.querySelector("#pushform").addEventListener("submit",(e)=>{
     }else{
  list.push(inputval.value.toLowerCase());
 
- a.innerHTML += `<div class="box" ><img src="https://images.unsplash.com/photo-1601234699404-4867fa71f87f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=565&q=80"  /><div id='textbox' style="width: 100%;height: 70px;text-align: right;"><h4 id='texth4'>${inputval.value}</h4></b><p style="font-size: 10px;">DSG department</p></div></div>`;
+ a.innerHTML += `<div class="box" ><img src="https://images.unsplash.com/photo-1601234699404-4867fa71f87f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=565&q=80"  /><div id='textbox' style="width: 100%;height: 70px;text-align: right;"><h4 id='texth4'>${inputval.value.toLowerCase()}</h4></b><p style="font-size: 10px;">DSG department</p></div></div>`;
       document.querySelector("#noofjoin").textContent =  `${list.length} person joined`;
       
       let option = document.querySelector("#right");
