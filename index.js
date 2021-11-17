@@ -67,7 +67,7 @@ setInterval(() => {
     ` 
     
     document.getElementsByClassName('box')[0].classList.add('animate');
-    classname.parentNode.innerHTML=`<div id='textbox' style="width: 100%;height: 70px;text-align: right;"><h4 id='texth4'>${list[0]}</h4></b><p style="font-size: 10px;">NI1209 department</p></div></div>`
+    classname.parentNode.innerHTML=`<div id='textbox' style="width: 100%;height: 70px;text-align: right;"><h4 id='texth4'>${list[0]}</h4></b><p style="font-size: 10px;">DSG department</p></div></div>`
     
   
       let temp = list[0];
